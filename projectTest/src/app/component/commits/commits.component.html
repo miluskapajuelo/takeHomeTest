@@ -1,6 +1,15 @@
-<main>
+<main class="main">
 <section class="container-commit">
-  <p>hola mundo</p>
+  <div class="card" style="width: 18rem;" *ngFor=" let commitElement of commitList; let indice=index" >
+    <div class="card-body">
+      <h5 class="card-title">Commit N° {{indice+1}}</h5>
+      <p class="card-text">{{commitElement.commit.message}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Date: {{commitElement.commit.committer.date}}</li>
+      <li class="list-group-item">Author: {{commitElement.commit.committer.name}}</li>
+    </ul>
+  </div>
 </section>
 <footer class="footer">
   <div>Every commit represents a part of a great project</div>
