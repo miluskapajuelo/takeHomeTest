@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CommitGithubService } from 'src/app/service/commit-github.service';
 
 @Component({
   selector: 'app-commits',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CommitsComponent implements OnInit {
 
-  constructor() { }
+  commitList:Array<any>
+
+  constructor(private commitGithubService:CommitGithubService) {
+    this.commitList=[]
+   }
 
   ngOnInit(): void {
+    this.commitGithubService.getCommit().subscribe((element)=>{
+      this.commitList = element
+      this.commitList.reverse()
+    })
+
+
   }
+
 
 }
