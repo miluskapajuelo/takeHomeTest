@@ -6,14 +6,9 @@ All git commit history in an app!
 
 ## Table of Contents
 * [Goals and Philosofy](#Goals-and-Philosofy)
-* [Documentation](#Documentation)
-    * [Intallation](#Installation)
-    * [Usage](#Usage)
-    * [Options](#Options)
-    * [Flowchart](#Flowchart)
-    * [Technical documentation of the library.](#Technical-documentation-of-the-library)
-    * [Test](#Test)
 * [Project](#Project)
+    * [Design of product](#Design-of-product)
+    * [Technologies used](#Technologies-used)
     
 
 
@@ -38,11 +33,15 @@ Using this estructure:
   └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
 
 
-## App: History commits
+## Project 
+App: History commits
 ### Design of product
 Product was design using FIGMA, is a responsive app to mobile and desktop.
 
-<a href="https://ibb.co/v1hFRNP"><img src="https://i.ibb.co/PxML02h/mockupdeskt.png" alt="mockupdeskt" border="0"></a>
+**Desktop view**
+<a href="https://ibb.co/fqtzjkH"><img src="https://i.ibb.co/vVm603k/mockupdeskt.png" alt="mockupdeskt" border="0"></a>
+
+**Mobile view**
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/MDk7MKz/mockupmobile.png" alt="mockupmobile" border="0"></a>
 
 ### Technologies used
