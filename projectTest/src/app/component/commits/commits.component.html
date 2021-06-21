@@ -1,0 +1,24 @@
+<main class="main">
+<section class="container-commit">
+  <div class="card" style="width: 18rem;" *ngFor=" let commitElement of commitList; let indice=index" >
+    <div class="card-body">
+      <h5 class="card-title">Commit N° {{indice+1}}</h5>
+      <p class="card-text">{{commitElement.commit.message}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Date: {{commitElement.commit.committer.date}}</li>
+      <li class="list-group-item">Author: {{commitElement.commit.committer.name}}</li>
+    </ul>
+  </div>
+</section>
+<footer class="footer">
+  <div>Every commit represents a part of a great project</div>
+  <div class="infoAuthor">
+    <div class="margin">Miluska Pajuelo</div>
+    <div class="margin">
+      <a href="https://github.com/miluskapajuelo/" alt="github" target="_blank"><img class="icon" src="../assets/image/github.png" ></a>
+      <a href="https://www.linkedin.com/in/jhoselynpajuelovillanueva/" alt="linkedin" target="_blank"><img class="icon" src="../assets/image/linkedin.png"></a>
+    </div>
+  </div>
+</footer>
+</main>
