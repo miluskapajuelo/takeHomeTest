@@ -20,18 +20,6 @@ Create an app that shows git commit history of this proyect. So I write well-sta
 Using this estructure:
 [Estructure-Angular](https://github.com/angular/angular/blob/master/CONTRIBUTING.md)
 
-<type>(<scope>): <short summary>
-  │       │             │
-  │       │             └─⫸ Summary in present tense. Not capitalized. No period at the end.
-  │       │
-  │       └─⫸ Commit Scope: animations|bazel|benchpress|common|compiler|compiler-cli|core|
-  │                          elements|forms|http|language-service|localize|platform-browser|
-  │                          platform-browser-dynamic|platform-server|router|service-worker|
-  │                          upgrade|zone.js|packaging|changelog|dev-infra|docs-infra|migrations|
-  │                          ngcc|ve
-  │
-  └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
-
 
 ## Project 
 App: History commits
@@ -39,9 +27,13 @@ App: History commits
 Product was design using FIGMA, is a responsive app to mobile and desktop.
 
 **Desktop view**
+
+
 <a href="https://ibb.co/fqtzjkH"><img src="https://i.ibb.co/vVm603k/mockupdeskt.png" alt="mockupdeskt" border="0"></a>
 
 **Mobile view**
+
+
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/MDk7MKz/mockupmobile.png" alt="mockupmobile" border="0"></a>
 
 ### Technologies used
