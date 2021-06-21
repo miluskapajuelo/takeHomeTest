@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CommitGithubService } from 'src/app/service/commit-github.service';
+
 
 @Component({
   selector: 'app-home',
@@ -8,10 +8,10 @@ import { CommitGithubService } from 'src/app/service/commit-github.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private commitGithubService:CommitGithubService) { }
+  constructor() { }
 
   ngOnInit(): void {
-    this.commitGithubService.getCommit().subscribe((commit)=>console.log(commit))
+
   }
 
 }
