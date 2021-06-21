@@ -10,7 +10,6 @@ export class CommitGithubService {
   private user: string;
   private repo: string;
   private type: string;
-  private sha: string;
 
 
   constructor(private httpClient: HttpClient) {
@@ -18,9 +17,8 @@ export class CommitGithubService {
     this.user = '/miluskapajuelo'
     this.repo ='/takeHomeTest'
     this.type = '/commits'
-    this.sha = '?sha=devMilu'
    }
   getCommit() {
-    return this.httpClient.get<any>(`${this.domain}${this.user}${this.repo}${this.type}${this.sha}`);
+    return this.httpClient.get<any>(`${this.domain}${this.user}${this.repo}${this.type}`);
   }
 }
