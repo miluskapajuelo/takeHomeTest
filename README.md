@@ -16,9 +16,9 @@ All git commit history in an app!
 
 ## Goals and Philosofy
 
-Create an app that shows git commit history of this proyect. So I write well-stated and defined commits.
-Using this estructure:
-[Estructure-Angular](https://github.com/angular/angular/blob/master/CONTRIBUTING.md)
+Create an app that shows git commit history of this proyect. 
+
+So this project has been written with well-stated and defined commits, using this estructure: [Estructure-Angular](https://github.com/angular/angular/blob/master/CONTRIBUTING.md)
 
 
 ## Project 
@@ -29,7 +29,7 @@ Product was design using FIGMA, is a responsive app to mobile and desktop.
 **Desktop view**
 
 
-<a href="https://ibb.co/fqtzjkH"><img src="https://i.ibb.co/vVm603k/mockupdeskt.png" alt="mockupdeskt" border="0"></a>
+<a href="https://ibb.co/WBfjXx8"><img src="https://i.ibb.co/F8zC1xZ/mockupdeskt.png" alt="mockupdeskt" border="0"></a>
 
 **Mobile view**
 
